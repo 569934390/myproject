@@ -33,7 +33,7 @@ public class Log4JdbcCustomFormatter extends Slf4jSpyLogDelegator {
     }
 
     public void setMargin(int n) {
-        margin = String.format("%1$#" + n + "s", "");
+        margin = String.format("%1$" + n + "s", "");
     }
 
 

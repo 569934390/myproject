@@ -1507,6 +1507,16 @@ public class ResultSetSpy implements ResultSet, Spy
     reportReturn(methodCall, (Object[]) null);
   }
 
+  @Override
+  public <T> T getObject(int columnIndex, Class<T> type) throws SQLException {
+    return null;
+  }
+
+  @Override
+  public <T> T getObject(String columnLabel, Class<T> type) throws SQLException {
+    return null;
+  }
+
   public boolean isBeforeFirst() throws SQLException 
   {
     String methodCall = "isBeforeFirst()";

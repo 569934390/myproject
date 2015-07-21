@@ -814,6 +814,16 @@ public class StatementSpy implements Statement, Spy
     }
   }
 
+  @Override
+  public void closeOnCompletion() throws SQLException {
+
+  }
+
+  @Override
+  public boolean isCloseOnCompletion() throws SQLException {
+    return false;
+  }
+
   public void setMaxFieldSize(int max) throws SQLException
   {
     String methodCall = "setMaxFieldSize(" + max + ")";
