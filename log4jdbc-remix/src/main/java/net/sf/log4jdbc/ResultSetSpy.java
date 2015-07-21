@@ -266,10 +266,10 @@ public class ResultSetSpy implements ResultSet, Spy
    * Conveniance method to report (for logging) that a method returned an Object.
    *
    * @param methodCall description of method call and arguments passed to it that returned.
-   * @param value return Object.
+   * @param returnValue return Object.
    * @return the return Object as passed in.
    */
-  protected Object reportReturn(String methodCall, Object returnValue, Object... args) 
+  protected <T> T reportReturn(String methodCall, T returnValue, Object... args)
   {
     reportAllReturns(methodCall, returnValue, args);
     return returnValue;
@@ -1507,15 +1507,34 @@ public class ResultSetSpy implements ResultSet, Spy
     reportReturn(methodCall, (Object[]) null);
   }
 
-  @Override
-  public <T> T getObject(int columnIndex, Class<T> type) throws SQLException {
-    return null;
-  }
 
-  @Override
-  public <T> T getObject(String columnLabel, Class<T> type) throws SQLException {
-    return null;
-  }
+    @Override
+    public <T> T getObject(int columnIndex, Class<T> type) throws SQLException {
+        String methodCall = "getObject(" + columnIndex +","+type +")";
+        try
+        {
+            return reportReturn(methodCall, realResultSet.getObject(columnIndex,type),columnIndex,type);
+        }
+        catch (SQLException s)
+        {
+            reportException(methodCall, s);
+            throw s;
+        }
+    }
+
+    @Override
+    public <T> T getObject(String columnLabel, Class<T> type) throws SQLException {
+        String methodCall = "getObject(" + columnLabel +","+type +")";
+        try
+        {
+            return reportReturn(methodCall, realResultSet.getObject(columnLabel,type),columnLabel,type);
+        }
+        catch (SQLException s)
+        {
+            reportException(methodCall, s);
+            throw s;
+        }
+    }
 
   public boolean isBeforeFirst() throws SQLException 
   {
