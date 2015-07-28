@@ -32,6 +32,9 @@ public interface SpyLogDelegator
    */
   public boolean isJdbcLoggingEnabled();
 
+  public Integer getMaxRow();
+  public Integer getMaxColumn();
+
   /**
    * Called when a spied upon method throws an Exception.
    *

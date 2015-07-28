@@ -127,7 +127,7 @@ public class ResultSetSpy implements ResultSet, Spy
     log = SpyLogFactory.getSpyLogDelegator();
     if (log.isResultSetCollectionEnabled())
     {
-      resultSetCollector = new DefaultResultSetCollector(log.isResultSetCollectionEnabledWithUnreadValueFillIn());
+      resultSetCollector = new DefaultResultSetCollector(log.isResultSetCollectionEnabledWithUnreadValueFillIn(),log.getMaxRow(),log.getMaxColumn());
     }
     reportReturn("new ResultSet", "", realResultSet);
   }

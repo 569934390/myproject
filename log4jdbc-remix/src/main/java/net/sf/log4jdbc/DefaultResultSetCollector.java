@@ -31,9 +31,18 @@ public class DefaultResultSetCollector implements ResultSetCollector {
   private static final String UNREAD = "[unread]";
   private static final String UNREAD_ERROR = "[unread!]";
   private boolean fillInUnreadValues = false;
+  private Integer maxRow;
+  private Integer maxColumn;
+  private Integer rowIndex=0;
 
   public DefaultResultSetCollector(boolean fillInUnreadValues) {
     this.fillInUnreadValues = fillInUnreadValues;
+  }
+
+  public DefaultResultSetCollector(boolean fillInUnreadValues,Integer maxRow,Integer maxColumn) {
+    this.fillInUnreadValues = fillInUnreadValues;
+    this.maxRow=maxRow;
+    this.maxColumn=maxColumn;
   }
 
   private ResultSetMetaData metaData = null;
@@ -48,6 +57,16 @@ public class DefaultResultSetCollector implements ResultSetCollector {
     return rows;
   }
 
+    @Override
+    public Integer getMaxRow() {
+        return this.maxRow;
+    }
+
+  @Override
+  public Integer getMaxColumn() {
+    return this.maxColumn;
+  }
+
   public int getColumnCount() {
     try {
       return metaData.getColumnCount();
@@ -59,6 +78,8 @@ public class DefaultResultSetCollector implements ResultSetCollector {
   public void reset() {
     rows = null;
     row = null;
+    rowIndex=-1;
+    maxRow=null;
     metaData = null;
     colNameToColIndex = null;
     colIndex = -1;

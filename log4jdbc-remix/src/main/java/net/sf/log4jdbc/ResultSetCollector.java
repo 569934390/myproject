@@ -44,6 +44,9 @@ public interface ResultSetCollector {
    */
   public List<List<Object>> getRows();
 
+  public Integer getMaxRow();
+  public Integer getMaxColumn();
+
   /**
    * @return the result set column count
    */

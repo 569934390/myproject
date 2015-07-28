@@ -40,4 +40,9 @@ public class Utilities {
     return output.toString();
   }
 
+  public static int getChineseSize(String str){
+    String term = str.replaceAll("[\\u4e00-\\u9fa5]", "");
+    return str.length()-term.length();
+  }
+
 }

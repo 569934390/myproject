@@ -24,6 +24,8 @@ public class Log4JdbcCustomFormatter extends Slf4jSpyLogDelegator {
     private LoggingType loggingType = LoggingType.DISABLED;
 
     private String margin = "";
+    private Integer maxRow;
+    private Integer maxColumn;
 
     private String sqlPrefix = "SQL:";
 
@@ -36,6 +38,21 @@ public class Log4JdbcCustomFormatter extends Slf4jSpyLogDelegator {
         margin = String.format("%1$" + n + "s", "");
     }
 
+    public Integer getMaxRow() {
+        return maxRow;
+    }
+
+    public void setMaxRow(Integer maxRow) {
+        this.maxRow = maxRow;
+    }
+
+    public Integer getMaxColumn() {
+        return maxColumn;
+    }
+
+    public void setMaxColumn(Integer maxColumn) {
+        this.maxColumn = maxColumn;
+    }
 
     public Log4JdbcCustomFormatter() {
     }

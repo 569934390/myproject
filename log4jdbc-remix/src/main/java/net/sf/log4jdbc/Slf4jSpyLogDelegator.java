@@ -91,8 +91,17 @@ public class Slf4jSpyLogDelegator implements SpyLogDelegator
       return jdbcLogger.isErrorEnabled() || resultSetLogger.isErrorEnabled() || sqlOnlyLogger.isErrorEnabled() ||
         sqlTimingLogger.isErrorEnabled() || connectionLogger.isErrorEnabled() || resultSetTableLogger.isErrorEnabled();
     }
-    
-    
+
+    @Override
+    public Integer getMaxRow() {
+        return null;
+    }
+
+    @Override
+    public Integer getMaxColumn() {
+        return null;
+    }
+
 
     /**
      * Called when a jdbc method throws an Exception.
