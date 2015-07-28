@@ -1,4 +1,4 @@
-log4jdbc-remix的bug修复并新增一些功能，基于版本0.2.7
+log4jdbc-remix的bug修复并新增一些功能，基于版本0.2.7</br>
 修复的bug:
 1.margin参数报错的bug
 2.中文resultset无法对齐的问题
