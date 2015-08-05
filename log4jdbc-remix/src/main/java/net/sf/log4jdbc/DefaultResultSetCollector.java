@@ -30,19 +30,11 @@ public class DefaultResultSetCollector implements ResultSetCollector {
   private static final String NULL_RESULT_SET_VAL = "[null]";
   private static final String UNREAD = "[unread]";
   private static final String UNREAD_ERROR = "[unread!]";
-  private boolean fillInUnreadValues = false;
-  private Integer maxRow;
-  private Integer maxColumn;
-  private Integer rowIndex=0;
+  private SpyLogDelegator log;
 
-  public DefaultResultSetCollector(boolean fillInUnreadValues) {
-    this.fillInUnreadValues = fillInUnreadValues;
-  }
 
-  public DefaultResultSetCollector(boolean fillInUnreadValues,Integer maxRow,Integer maxColumn) {
-    this.fillInUnreadValues = fillInUnreadValues;
-    this.maxRow=maxRow;
-    this.maxColumn=maxColumn;
+  public DefaultResultSetCollector(SpyLogDelegator log) {
+    this.log=log;
   }
 
   private ResultSetMetaData metaData = null;
@@ -59,12 +51,12 @@ public class DefaultResultSetCollector implements ResultSetCollector {
 
     @Override
     public Integer getMaxRow() {
-        return this.maxRow;
+        return this.log.getMaxRow();
     }
 
   @Override
   public Integer getMaxColumn() {
-    return this.maxColumn;
+    return this.log.getMaxColumn();
   }
 
   public int getColumnCount() {
@@ -78,8 +70,6 @@ public class DefaultResultSetCollector implements ResultSetCollector {
   public void reset() {
     rows = null;
     row = null;
-    rowIndex=-1;
-    maxRow=null;
     metaData = null;
     colNameToColIndex = null;
     colIndex = -1;
@@ -208,7 +198,7 @@ public class DefaultResultSetCollector implements ResultSetCollector {
 
   @Override
   public void preMethod(ResultSetSpy resultSetSpy, String methodCall, Object... methodParams) {
-    if (methodCall.equals("next()") && fillInUnreadValues) {
+    if (methodCall.equals("next()") && this.log.isResultSetCollectionEnabledWithUnreadValueFillIn()) {
       if (row != null) {
         int colIndex = 0;
         for (Object v : row) {
