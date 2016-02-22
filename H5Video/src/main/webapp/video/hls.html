@@ -1,0 +1,20 @@
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script type="text/javascript" src="clappr.min.js"></script>
+    <!--<script type="text/javascript"
+            src="//cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>-->
+    <!--<script type="text/javascript" src="../dist/clappr-thumbnails-plugin.js"></script>-->
+</head>
+<body>
+<div id="player"></div>
+<script>
+    var player = new Clappr.Player({
+        source: 'http://hlstest.haplat.net/show/test_200/playlist.m3u8',
+        mute: true,
+        parentId: "#player",
+        height: 360,
+        width: 640
+    });
+
+</script>
+</body>
