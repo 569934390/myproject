@@ -1,0 +1,24 @@
+<html>
+<title>微数据</title>
+<meta charset="UTF-8" />
+<head>
+    <script>
+        function setConfidence(value){
+            document.getElementById("output").value=value
+        }
+
+    </script>
+
+</head>
+<body>
+    <div itemscope itemtype="http://data-vocabulary.org/Person">
+        我的名字是<span itemprop="name">王富强</span>，
+        但大家叫我<span itemprop="nickname">小强</span>。
+        我的个人首页是：
+        <a href="http://www.example.com" itemprop="url">www.example.com</a>
+        我住在上海市富贵新村。我是<span itemprop="title">工程师</span>，
+        目前在<span itemprop="affiliation">财富科技公司</span>上班。
+    </div>
+
+</body>
+</html>

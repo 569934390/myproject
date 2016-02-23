@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/H5Video/H5Video.iml" filepath="$PROJECT_DIR$/H5Video/H5Video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clappr/clappr.iml" filepath="$PROJECT_DIR$/clappr/clappr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabric.js/fabric.js.iml" filepath="$PROJECT_DIR$/fabric.js/fabric.js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/log4jdbc-remix/log4jdbc-remix.iml" filepath="$PROJECT_DIR$/log4jdbc-remix/log4jdbc-remix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-generator-core/mybatis-generator-core.iml" filepath="$PROJECT_DIR$/mybatis-generator-core/mybatis-generator-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/react-demos/react-demos.iml" filepath="$PROJECT_DIR$/react-demos/react-demos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utils/utils.iml" filepath="$PROJECT_DIR$/utils/utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weixin/weixin.iml" filepath="$PROJECT_DIR$/weixin/weixin.iml" />
+    </modules>
+  </component>
+</project>

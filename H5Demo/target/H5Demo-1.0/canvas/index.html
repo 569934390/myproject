@@ -1,0 +1,21 @@
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>canvas</title>
+</head>
+<body>
+<canvas id="canvas" width="300" height="300"></canvas>
+<script>
+    var ctx = document.getElementById("canvas").getContext("2d");
+    ctx.fillRect(20, 25, 150, 100);
+
+    ctx.beginPath();
+    ctx.arc(220, 110, 100, Math.PI * 1/2, Math.PI * 3/2);
+    ctx.lineWidth = 15;
+    ctx.lineCap = 'round';
+    ctx.strokeStyle = 'rgba(255, 127, 0, 0.5)';
+    ctx.stroke();
+</script>
+</body>
+</html>
