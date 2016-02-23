@@ -3,7 +3,9 @@ package com.wx.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.lf.http.HttpClientUtils;
+import org.apache.commons.io.FileUtils;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -65,8 +67,8 @@ public class WeixinUtils {
         return "success";
     };
 
-    public static void main(String[] args) {
-        String params="{\"button\":[{\"name\":\"天气预报\",\"sub_button\":[{\"type\":\"click\",\"name\":\"北京天气\",\"key\":\"天气北京\"},{\"type\":\"click\",\"name\":\"上海天气\",\"key\":\"天气上海\"},{\"type\":\"click\",\"name\":\"广州天气\",\"key\":\"天气广州\"},{\"type\":\"click\",\"name\":\"深圳天气\",\"key\":\"天气深圳\"},{\"type\":\"view\",\"name\":\"本地天气\",\"url\":\"http://m.hao123.com/a/tianqi\"}]},{\"name\":\"方倍工作室\",\"sub_button\":[{\"type\":\"click\",\"name\":\"公司简介\",\"key\":\"company\"},{\"type\":\"click\",\"name\":\"趣味游戏\",\"key\":\"游戏\"},{\"type\":\"click\",\"name\":\"讲个笑话\",\"key\":\"笑话\"}]}]}";
+    public static void main(String[] args) throws IOException {
+        String params= FileUtils.readFileToString(new File("D:\\myproject\\weixin\\src\\main\\webapp\\menu\\school.json"));
         String result=createMenu(params);
         System.out.println(result);
     }

@@ -1,0 +1,63 @@
+{
+  "button": [
+    {
+      "name": "缴费",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "注册",
+          "key": "注册"
+        },
+        {
+          "type": "click",
+          "name": "缴费",
+          "key": "缴费"
+        }
+      ]
+    },
+    {
+      "name": "报名",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "报名须知",
+          "key": "报名须知"
+        },
+        {
+          "type": "click",
+          "name": "新生登记",
+          "key": "新生登记"
+        },
+        {
+          "type": "click",
+          "name": "录取查询",
+          "key": "录取查询"
+        },
+        {
+          "type": "click",
+          "name": "录取生报名",
+          "key": "录取生报名"
+        }
+      ]
+    },{
+      "name":"资讯",
+      "sub_button": [
+        {
+          "type": "click",
+          "name": "学校官网",
+          "key": "company"
+        },
+        {
+          "type": "click",
+          "name": "校园之声",
+          "key": "校园之声"
+        },
+        {
+          "type": "click",
+          "name": "公告",
+          "key": "公告"
+        }
+      ]
+    }
+  ]
+}
