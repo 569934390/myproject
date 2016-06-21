@@ -2,7 +2,23 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>test</title>
+    <script src="template.js" ></script>
+    <script>
+        var template =
+                'My skills:' +
+                '<%if(this.showSkills) {%>' +
+                '<%for(var index in this.skills) {%>' +
+                '<a href="#"><%this.skills[index]%></a>' +
+                '<%}%>' +
+                '<%} else {%>' +
+                '<p>none</p>' +
+                '<%}%>';
+        console.log(TemplateEngine(template, {
+            skills: ["js", "html", "css"],
+            showSkills: false
+        }));
+    </script>
 </head>
 <body>
 

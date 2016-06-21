@@ -1,9 +1,0 @@
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:39:08 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-1 60
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:39:08 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-3 1
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:39:16 +0800] "GET /performance/ HTTP/1.1" 200 3051 http-bio-80-exec-8 2
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:39:16 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-9 1
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:39:38 +0800] "GET /performance/ HTTP/1.1" 200 3040 http-bio-80-exec-1 5
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:40:24 +0800] "GET /performance/ HTTP/1.1" 200 3040 http-bio-80-exec-8 2
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:40:24 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-80-exec-8 1
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:41:57 +0800] "GET /performance/ HTTP/1.1" 200 3077 http-bio-80-exec-2 6
-0:0:0:0:0:0:0:1 - - [03/Dec/2015:09:42:52 +0800] "POST /upload.do HTTP/1.1" 200 22 http-bio-80-exec-2 13951

@@ -4,10 +4,12 @@
     <entry_points version="2.0" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/angularjs-springmvc-sample" />
     <file type="web" url="file://$PROJECT_DIR$/com-byteslounge-websockets" />
     <file type="web" url="file://$PROJECT_DIR$/H5Demo" />
     <file type="web" url="file://$PROJECT_DIR$/H5Video" />
     <file type="web" url="file://$PROJECT_DIR$/Video" />
+    <file type="web" url="file://$PROJECT_DIR$/WebDemo" />
     <file type="web" url="file://$PROJECT_DIR$/weixin" />
   </component>
   <component name="MavenProjectsManager">
@@ -16,11 +18,14 @@
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/mybatis-generator-core/pom.xml" />
         <option value="$PROJECT_DIR$/Video/pom.xml" />
-        <option value="$PROJECT_DIR$/log4jdbc-remix/pom.xml" />
         <option value="$PROJECT_DIR$/H5Demo/pom.xml" />
         <option value="$PROJECT_DIR$/H5Video/pom.xml" />
         <option value="$PROJECT_DIR$/utils/pom.xml" />
         <option value="$PROJECT_DIR$/weixin/pom.xml" />
+        <option value="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/pom.xml" />
+        <option value="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/hbase/pom.xml" />
+        <option value="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/drpc/pom.xml" />
+        <option value="$PROJECT_DIR$/WebDemo/pom.xml" />
       </list>
     </option>
   </component>

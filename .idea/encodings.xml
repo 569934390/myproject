@@ -2,12 +2,14 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/H5Video" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/H5Video/src/main/webapp/bootstrap-fileinput-master" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/angularjs-springmvc-sample" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/clappr" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/clappr/src/main.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/log4jdbc-remix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatis-generator-core" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/utils" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/weixin" charset="UTF-8" />
+    <file url="file://D:/ws_svn/RESEARCH/code/trunk/season1/sonic" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

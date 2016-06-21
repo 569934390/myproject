@@ -1,20 +1,79 @@
 <head>
+
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <script type="text/javascript" src="clappr.min.js"></script>
-    <!--<script type="text/javascript"
-            src="//cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>-->
-    <!--<script type="text/javascript" src="../dist/clappr-thumbnails-plugin.js"></script>-->
 </head>
 <body>
 <div id="player"></div>
+</body>
 <script>
-    var player = new Clappr.Player({
-        source: 'http://hlstest.haplat.net/show/test_200/playlist.m3u8',
-        mute: true,
-        parentId: "#player",
-        height: 360,
-        width: 640
-    });
+    if(window.location.href.indexOf("vod")>=0){
+        /**  点播 **/
+        var player = new Clappr.Player({
+            disableVideoTagContextMenu:true,
+            video: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4",//视频
+            parentId: "#player",
+            autoPlay:false,//自动播放
+            logo:"http://ovp.haplat.net/logo/201601/chinanet-01_1453256763129.jpg",//logo
+            beforeAd:{src:"http://ovp.haplat.net/ad/201601/aaa_1453256763373.mp4",url:"http://www.baidu.com"},//前置广告
+            afterAd: {src:"http://ovp.haplat.net/ad/201601/aaa_1453256763726.mp4",url:"http://www.baidu.com"},//后置广告
+            midAd:{src:"http://ovp.haplat.net/ad/201601/chinanet-01 - 副本_1453256763618.jpg",duration:10,start:0.2,url:"http://www.baidu.com"},//中间广告
+            list:{"0": {"cover":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png","duration":149,"originalClarityUrl":"http://ovptest.haplat.net/video/201604/9a78a5fea8d2fb24a58bfcc1b0e3f39d_1459846275/00028123.mp4","title":"00028123","url":"http://ovptest.haplat.net/video/201604/9a78a5fea8d2fb24a58bfcc1b0e3f39d_1459846275/00028123.mp4","videoClaritySwitchID":1},
+                "1": {"cover":"https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png","duration":149,"title":"showgirl2","url":"http://ovptest.haplat.net/video/201604/4f1584a973db37e6485823b4b5a1d985_1459846568/showgirl2.mp4","videoClaritySwitchID":0}
+            },
+            levelConfig: {
+                labels: {
+                    0: '默认',
+                    1: '原画',
+                    2: '流畅',
+                    3: '标清',
+                    4: '高清',
+                    5: '超清'
+                },
+                urls:{
+                    0: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4",
+                    1: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4",
+                    2: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4",
+                    3: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4",
+                    4: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4",
+                    5: "http://ovptest.haplat.net/video/201512/0a72b6df2fbdcf73f39a64b4adb9baed_1450178730/transfer/xiao_0_2.mp4"
+                },
+                currentLevel:2
+            }
+        });
+    }else{
+        /**直播 **/
+        var player = new Clappr.Player({
+            autoPlay:true,//自动播放
+            disableVideoTagContextMenu:true,
+            video: 'http://hlstest.haplat.net/show/test_200/playlist.m3u8',
+//            video:'http://ovplivehls.haplat.net/hls/8743710a95294ca1b210a82fabc69474/playlist.m3u8',
+            levelConfig: {
+                labels: {
+                    0: '默认',
+                    1: '原画',
+                    2: '流畅',
+                    3: '标清',
+                    4: '高清',
+                    5: '超清'
+                },
+                urls:{
+                    0: "http://hlstest.haplat.net/show/test_200/playlist.m3u8",
+                    1: "http://hlstest.haplat.net/show/test_200/playlist.m3u8",
+                    2: "http://hlstest.haplat.net/show/test_200/playlist.m3u8",
+                    3: "http://ovplivehls.haplat.net/hls/8743710a95294ca1b210a82fabc69474_1200/playlist.m3u8",
+                    4: "http://ovplivehls.haplat.net/hls/8743710a95294ca1b210a82fabc69474_800/playlist.m3u8",
+                    5: "http://ovplivehls.haplat.net/hls/8743710a95294ca1b210a82fabc69474_2000/playlist.m3u8"
+                },
+                currentLevel:1
+            },
+            midAd:{src:"http://ovp.haplat.net/ad/201601/chinanet-01 - 副本_1453256763618.jpg",duration:10,start:0.2,url:"http://www.baidu.com"},//中间广告
+            parentId: "#player",
+            logo:"http://ovp.haplat.net/logo/201601/chinanet-01_1453256763129.jpg"//logo
+        });
+    }
+
+
 
 </script>
-</body>

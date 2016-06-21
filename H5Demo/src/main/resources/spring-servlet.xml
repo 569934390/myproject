@@ -7,29 +7,16 @@
 	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
 	http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd">
 
-	<!-- 使用conversion-service来注册自定义的converter 
-			DataBinder实现了PropertyEditorRegistry, TypeConverter这两个interface，而在spring mvc实际处理时，返回值都是return binder.convertIfNecessary(见HandlerMethodInvoker中的具体处理逻辑)。
-			因此可以使用customer conversionService来实现自定义的类型转换。 
-		-->
-	<bean id="conversionService" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">  
-		<property name="converters">  
-			<list>  
-				<bean class="com.ztesoft.common.DateConverter">
-					<constructor-arg index="0" value=""/>
-					<constructor-arg index="1" value="true"/>
-				</bean>  
-			</list>  
-		</property>  
-	</bean>
+
 
 	<!-- 自动扫描且只扫描@Controller -->
-	<context:component-scan base-package="com.ztesoft.action" use-default-filters="false">
+	<context:component-scan base-package="com.ws.report" use-default-filters="false">
 		<context:include-filter type="regex" expression=".*"/>
 		<context:include-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 		<context:include-filter type="annotation" expression="org.springframework.web.bind.annotation.ControllerAdvice"/>
 	</context:component-scan>
 	
-	<mvc:annotation-driven conversion-service="conversionService"> 
+	<mvc:annotation-driven>
 	<!-- spring返回的时候会根据这里的bean的顺序去匹配  -->
 		<mvc:message-converters register-defaults="false">  
 			<bean class="org.springframework.http.converter.StringHttpMessageConverter">
@@ -47,7 +34,7 @@
 	                </list>  
 				</property>
 	            <property name="objectMapper">  
-	                <bean class="com.ztesoft.common.JsonObjectMapper">  
+	                <bean class="com.ws.utils.JsonObjectMapper">
 	                </bean>  
 	            </property>  
 	        </bean> 
@@ -56,9 +43,7 @@
 	        <bean class="org.springframework.http.converter.xml.SourceHttpMessageConverter" />  
 	    </mvc:message-converters>  
 	</mvc:annotation-driven>
-	
-	<!-- 异常处理 -->
-	<bean id="exceptionHandler" class="com.ztesoft.common.ExceptionHandler"></bean>
+
 	
 	<bean
 		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
@@ -95,15 +80,5 @@
 		</property>
 	</bean>  
 
-		
-	<!-- 将Controller抛出的异常转到特定View, 保持SiteMesh的装饰效果 -->
-	<bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">  
-		<property name="exceptionMappings">  
-			<props>
-				<prop key="org.apache.shiro.authz.UnauthorizedException">error/403</prop>
-				<prop key="java.lang.Throwable">error/500</prop>
-			</props>  
-		</property>  
-	</bean> 
-	<!-- end -->
+
 </beans>

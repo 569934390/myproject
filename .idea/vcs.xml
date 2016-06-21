@@ -3,6 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/mybatis-generator-core" vcs="svn" />
+    <mapping directory="D:/ws_svn/RESEARCH/code/trunk/season1/sonic" vcs="svn" />
     <mapping directory="D:\myproject\clappr" vcs="Git" />
   </component>
 </project>

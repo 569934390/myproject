@@ -36,9 +36,9 @@ import net.sf.jasperreports.engine.export.JRXlsExporter;
 import net.sf.jasperreports.engine.export.JRXlsExporterParameter;
 import net.sf.jasperreports.engine.xml.JRXmlLoader;
 
-import com.ztesoft.dto.ReportRequest;
-import com.ztesoft.dto.ReportResultDto;
-import com.ztesoft.dto.TemplateParameter;
+import com.ws.dto.ReportRequest;
+import com.ws.dto.ReportResultDto;
+import com.ws.dto.TemplateParameter;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
@@ -125,7 +125,6 @@ public class ReportUtils {
     }
     /*******************************************************************************
 	 * 方法名称:exportCustomFile  说明：导出自定义文件
-	 * @param HttpServletRequest,HttpServletResponse
 	 * @ANTHOR GUO.WEI UR(633632) 20150120
 	 ******************************************************************************/
     public static void exportCustomFile(HttpServletRequest request,HttpServletResponse response) throws IOException {

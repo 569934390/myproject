@@ -1,6 +1,5 @@
 package com.ws.dto;
 
-import com.ztesoft.model.ReportResult;
 
 public class ReportResultDto extends ReportResult {
 

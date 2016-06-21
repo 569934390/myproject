@@ -3,7 +3,7 @@ package com.ws.dto;
 import java.util.List;
 import java.util.Map;
 
-import com.ztesoft.util.ReportUtils.REPORT_TYPE;
+import com.ws.utils.ReportUtils.REPORT_TYPE;
 
 public class ReportRequest {
 	private Map<String, Object> reportParameterMap;
