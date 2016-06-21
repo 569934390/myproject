@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/video-list.css">
+        <script type="text/javascript" src="clappr.min.js"></script>
+        <script>
+            function getPlayerParams(){
+                return {
+                    userId:'113992FA6D44A7DD',
+                    videoId:'EC5E4AB79E0DA9D81AE6D89A64264C93',
+                    isAutoPlay:false,
+                    playerType:13,
+                    playerId:"#player",
+                    html:"12345"
+                }
+            }
+        </script>
+        <!--<script type="text/javascript"
+                src="//cdn.jsdelivr.net/clappr.level-selector/latest/level-selector.min.js"></script>-->
+        <!--<script type="text/javascript" src="../dist/clappr-thumbnails-plugin.js"></script>-->
+
+    </head>
+    <body style="margin-top:50px;">
+        <div id="player"></div>
+        <script>
+            /*var player = new Clappr.Player({
+                source: 'http://hlstest.haplat.net/show/test_200/playlist.m3u8',
+                mute: true,
+                parentId: "#player",
+                logo:'logo.png',
+                height: 360,
+                width: 640
+            });*//*var player = new Clappr.Player({
+                source: 'http://hlstest.haplat.net/show/test_200/playlist.m3u8',
+                mute: true,
+                parentId: "#player",
+                logo:'logo.png',
+                height: 360,
+                width: 640
+            });*/
+             var htmlTemp = '<div class="temp-video-list-wrap">'+
+                    '<div class="list-control">'+
+                        '<span class="flexible-icon js-flexible"></span>'+
+                   '</div>'+
+                   '<div class="temp-video-list-content">'+
+                        '<p class="list-title">视频列表</p>'+
+                        '<div class="video-list-movies-wrap">'+
+                            '<div  class="ul-list">'+
+                              '<li class="active">'+
+                                '<img  src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time"> 02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>霍比特人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                            '<li>'+
+                                '<img class="hide" src="images/list.jpg">'+
+                                '<p>'+
+                                    '<span>aa人意外之旅</span>'+
+                                    '<span class="video-time">02:16:08</span>'+
+                                '</p>'+
+                            '</li>'+
+                        '</div>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>';
+
+            var player = new Clappr.Player({
+                video: "video.mp4",//视频
+                parentId: "#player",
+                width:480,
+                height:360,
+                autoPlay:true,//自动播放
+                logo:'logo.png',//水印
+                hideMediaControl: false,
+                html:htmlTemp,
+        //        beforeAd:{src:"beforeAd.mp4",url:'http://www.sinarharian.com.my'},//后置广告
+                afterAd: {src:"afterAd.mp4",url:'http://www.sinarharian.com.my'},//前置广告
+        //        plugins: {
+        //            'core': [LevelSelector]
+        //        },
+                levelConfig: {
+                    labels: {
+                        1: '原画',
+                        2: '流畅',
+                        3: '标清',
+                        4: '高清',
+                        5: '超清'
+                    },
+                    urls:{
+                        1: 'video.mp4',
+                        2: 'video.mp4',
+                        3: 'video.mp4',
+                        4: 'video.mp4',
+                        5: 'video.mp4'
+                    },
+                    currentLevel:1
+                },
+                midAd:{midHtml:"<image src='logo.png' />",duration:10,url:"http://www.sinarharian.com.my"}//中间广告,duration:广告播放时长,播放开始时间为视频中间的时间,midHtml:中间广告的内容,url:点击图片打开的网址
+            });
+
+            player.getPlugin('poster').$el.on('click', function() {
+                if(!Clappr.Utils.Fullscreen.isFullscreen()){
+                    player.core.mediaControl.toggleFullscreen();
+                }
+            });
+        </script>
+    </body>
+</html>
+
+
