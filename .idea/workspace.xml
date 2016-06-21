@@ -12,148 +12,22 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clappr/src/components/media_control_custom/media_control_custom.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mybatis-generator-core/mybatis-generator-core.iml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/clappr/public/ovp.html" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\com-byteslounge-websockets.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\src\main\resources\report\Copy of table.jrxml.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\src\main\resources\report\TableReport.jrxml.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\src\main\resources\report\TabularReport.jrxml.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\src\main\resources\report\demo.jrxml.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\src\main\resources\report\table.jrxml.tpl" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\classes\com\byteslounge\websockets\UploadServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\classes\com\byteslounge\websockets\WebRTC.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\classes\com\byteslounge\websockets\WebSocketTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\lib\commons-fileupload-1.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\lib\jstl-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\lib\standard-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\canvas\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\draggable\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\0db69ce3-44d5-4ffe-b1a8-6764618bfa8e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\1ec2e27f-f6e4-4d6f-bde0-4dcc8e1fce1e.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\256a2dde-0e6f-4aa4-8ed0-0b67f74afb10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\4a0fa89b-792c-493a-b9f1-3868c581c98a.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\b24eb787-057d-4955-8a81-7e7463b4bd1a.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\c1a5bd6e-b449-4620-b961-18911026b27c.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\e13fe069-ced7-4e57-afe2-6e4088f0bae3.zip" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\e72680d9-2b06-49ea-80d6-bf8266f2197b.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\f17607a7-a353-4ef0-a652-ac328f28c379.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\upload\ff751ed7-fa51-471e-882e-030fc959b5ef.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\eShop\uploadtmp\upload_20abc6fa_15138de7be4__8000_00000000.tmp" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\form\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\microdata\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\performance\data.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\performance\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\performance\postMessage.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\performance\webworker.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\performance\webworker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\semantic\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\storage\appcache_offline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\storage\clock.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\storage\clock.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\storage\clock.manifest" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\storage\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\3e43a5d764f841e7e78896de82cd6c50.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\afterAd.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\baobao.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\beforeAd.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\cars1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\clappr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\clappr.min.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1.rar" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\3e43a5d764f841e7e78896de82cd6c50.ttf" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\adv_05.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\adv_06.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\clappr.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\test_1min.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo1\test_20s.mov" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\bigplay.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\control.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\poster.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\vendorscript.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\vendorstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\demo2\video.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\echo-hereweare.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\logo.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\video.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\video\yangshengtang.mp4" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\webrtc\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\H5Demo-1.0\websockets\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\classes\com\byteslounge\websockets\UploadServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\classes\com\byteslounge\websockets\WebRTC.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\classes\com\byteslounge\websockets\WebSocketTest.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\maven-status\maven-compiler-plugin\compile\default-compile\createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\maven-status\maven-compiler-plugin\compile\default-compile\inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\conf\logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\conf\tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\conf\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-11-24" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-11-25" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-11-26" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-12-02" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-12-03" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-12-09" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\logs\access_log.2015-12-10" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\work\Tomcat\localhost\_\org\apache\jsp\index_jsp.class" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\H5Demo\target\tomcat\work\Tomcat\localhost\_\org\apache\jsp\index_jsp.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\WebDemo\WebDemo.iml" afterPath="" />
-      <change type="DELETED" beforePath="D:\myproject\WebDemo\pom.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\myproject\clappr\dist\38861cba61c66739c1452c3a71e39852.ttf" afterPath="" />
       <change type="DELETED" beforePath="D:\myproject\clappr\dist\4b76590b32dab62bc95c1b7951efae78.swf" afterPath="" />
       <change type="DELETED" beforePath="D:\myproject\clappr\dist\a8c874b93b3d848f39a71260c57e3863.cur" afterPath="" />
       <change type="DELETED" beforePath="D:\myproject\clappr\dist\clappr.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/model/AlarmData.java" afterPath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/model/AlarmData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DebugTest/DebugTest.iml" afterPath="$PROJECT_DIR$/DebugTest/DebugTest.iml" />
       <change type="MODIFICATION" beforePath="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/hbase/src/main/java/com/ws/hbase/HBaseClient.java" afterPath="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/hbase/src/main/java/com/ws/hbase/HBaseClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/test/java/JsonTest.java" afterPath="$PROJECT_DIR$/weixin/src/test/java/JsonTest.java" />
       <change type="MODIFICATION" beforePath="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/hbase/src/main/java/hbase/MetersDemo.java" afterPath="D:/ws_svn/RESEARCH/code/trunk/season1/sonic/hbase/src/main/java/hbase/MetersDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/report/ReportController.java" afterPath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/report/ReportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/dto/ReportRequest.java" afterPath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/dto/ReportRequest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/dto/ReportResultDto.java" afterPath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/dto/ReportResultDto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/utils/ReportUtils.java" afterPath="$PROJECT_DIR$/H5Demo/src/main/java/com/ws/utils/ReportUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/src/test/java/TestBean.java" afterPath="$PROJECT_DIR$/weixin/src/test/java/TestBean.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/angularjs_springmvc_sample_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/angularjs_springmvc_sample_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/clappr.js" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/clappr.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/dist/clappr.min.js.map" afterPath="$PROJECT_DIR$/clappr/dist/clappr.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/clappr.min.js" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/clappr.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/dist/clappr.min.js" afterPath="$PROJECT_DIR$/clappr/dist/clappr.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/src/components/core/core.js" afterPath="$PROJECT_DIR$/clappr/src/components/core/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator-core/src/main/config/generatorConfig.xml" afterPath="$PROJECT_DIR$/mybatis-generator-core/src/main/config/generatorConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/hls.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/hls.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/www/hls.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/www/hls.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/src/playbacks/hls/hls.js" afterPath="$PROJECT_DIR$/clappr/src/playbacks/hls/hls.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/src/playbacks/html5_video/html5_video.js" afterPath="$PROJECT_DIR$/clappr/src/playbacks/html5_video/html5_video.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/batchupload/examples/index.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/batchupload/examples/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/index.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/src/components/loader/loader.js" afterPath="$PROJECT_DIR$/clappr/src/components/loader/loader.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/src/main.js" afterPath="$PROJECT_DIR$/clappr/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/min.js" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/origin.js" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/origin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/ovp.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/ovp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/pom.xml" afterPath="$PROJECT_DIR$/H5Demo/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mybatis-generator-core/pom.xml" afterPath="$PROJECT_DIR$/mybatis-generator-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/video/safari.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/video/safari.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/resources/spring-servlet.xml" afterPath="$PROJECT_DIR$/H5Demo/src/main/resources/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/demo/template.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/demo/template.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/demo/template.js" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/demo/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/batchupload/examples/test.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/batchupload/examples/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/bootstrap-fileinput-master/examples/test.html" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/bootstrap-fileinput-master/examples/test.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Video/src/main/webapp/batchupload/examples/test.json" afterPath="$PROJECT_DIR$/H5Video/src/main/webapp/batchupload/examples/test.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/H5Demo/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/H5Demo/src/main/webapp/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/clappr/webpack-base-config.js" afterPath="$PROJECT_DIR$/clappr/webpack-base-config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="myproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -212,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/H5Demo/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28228784">
+            <state vertical-scroll-proportion="-5.8846154">
               <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
             </state>
@@ -264,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/H5Demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="161" column="28" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="28" />
+            <state vertical-scroll-proportion="2.556338">
+              <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -1461,7 +1335,7 @@
       <workItem from="1466473334762" duration="7610000" />
       <workItem from="1466482392553" duration="2796000" />
       <workItem from="1466490761233" duration="763000" />
-      <workItem from="1466493429205" duration="1410000" />
+      <workItem from="1466493429205" duration="1446000" />
     </task>
     <task id="LOCAL-00001" summary="文件修改">
       <created>1437450928400</created>
@@ -1617,7 +1491,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1087435000" />
+    <option name="totallyTimeSpent" value="1087471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1630,7 +1504,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.4969325" order="6" side_tool="false" content_ui="tabs" />
@@ -1642,7 +1516,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32463294" sideWeight="0.4969325" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32495812" sideWeight="0.49016643" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34839204" sideWeight="0.49122807" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34839204" sideWeight="0.49122807" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2530675" sideWeight="0.50877196" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2284,7 +2158,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/H5Demo/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28228784">
+        <state vertical-scroll-proportion="-5.8846154">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
           <folding />
         </state>
@@ -2320,14 +2194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/H5Demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="161" column="28" selection-start-line="161" selection-start-column="28" selection-end-line="161" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -2389,6 +2255,14 @@
             <element signature="e#820#821#0" expanded="false" />
             <element signature="e#862#863#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5Demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.556338">
+          <caret line="182" column="32" selection-start-line="182" selection-start-column="32" selection-end-line="182" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
